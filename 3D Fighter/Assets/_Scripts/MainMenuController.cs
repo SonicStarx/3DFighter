@@ -7,7 +7,12 @@ public class MainMenuController : MonoBehaviour
 {
     public void ButtonHandlerOptions()
     {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("OptionsScreen");
+        AsyncOperation OptionsButton = SceneManager.LoadSceneAsync("OptionsScreen");
+    }
+
+    public void ButtonHandlerSingleStart()
+    {
+        AsyncOperation tutorialButton = SceneManager.LoadSceneAsync("Tutorial");
     }
 
     public void ButtonHandlerQuit()
