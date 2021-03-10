@@ -16,12 +16,12 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.D))
+        if(Input.GetKeyDown(KeyCode.Q))
         {
             animation.SetTrigger("lpunch");
         }
 
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             animation.SetTrigger("rpunch");
         }
